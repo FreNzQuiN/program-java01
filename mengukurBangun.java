@@ -92,10 +92,10 @@ class silinder {
 		return Math.PI*rad*rad;
 	}
 	static double permukaan(double dia, double tinggi){
-		return Math.PI*dia*tinggi;
+		return Math.PI*dia*tinggi+2*Math.PI*dia;
 	}
 	static double volume(double rad, double tinggi){
 		return (Math.PI*rad*rad)*tinggi;
 	}
 }
-
+	
