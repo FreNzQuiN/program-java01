@@ -16,7 +16,7 @@ class Ideone{
 		System.out.println("===========================");
 	}
 	static void programInput() {
-		System.out.println("1.\t Kotak");
+		System.out.println("1.\t Kubus");
 		System.out.println("2.\t Balok");
 		System.out.println("3.\t Silinder");
 		System.out.println("Ingin menghitung bangun apa?");
@@ -26,7 +26,7 @@ class Ideone{
 	static void menentukanRuang() {
 		switch (tmp) {
 		case 1:
-			programKotak();
+			programKubus();
 			break;
 		case 2:
 			programBalok();
@@ -53,13 +53,13 @@ class Ideone{
 		System.out.println("== TERIMAKASIH^^ SEE YOU ==");
 		System.out.println("===========================");
 	}
-	static void programKotak() {
+	static void programKubus() {
 		System.out.printf("Masukkan panjang satu sisi: ");
 		double x = scan.nextDouble();
 		System.out.println();
 		double volume = Math.pow(x,3), luasPermukaan= x*x*6;
-		System.out.printf("Volume Kotak adalah\t: %.2f\n", volume);
-		System.out.printf("Luas Permukaan Kotak adalah\t: %.2f\n",luasPermukaan);
+		System.out.printf("Volume Kubus adalah\t: %.2f\n", volume);
+		System.out.printf("Luas Permukaan Kubus adalah\t: %.2f\n",luasPermukaan);
 		programUlang();
 	}
 	static void programBalok() {
